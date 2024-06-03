@@ -1,0 +1,80 @@
+
+.block1 {
+    border: 1px black solid;
+    width: 250px;
+    height: 350px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    transition: width 0.3s, height 0.3s; 
+}
+
+.header {
+    margin-top: 20px;
+    background-color: blue;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.price {
+    background-color: black;
+    opacity: 0.8;
+    width: 60px;
+    height: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -15px;
+    border-radius: 15%;
+}
+
+.block1:hover {
+    width: 350px;
+    height: 450px;
+    border-color: blueviolet;
+    border: 3px blueviolet solid;
+    background-color: blanchedalmond;
+}
+
+.block1 .info ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.block1 .info li {
+    margin: 10px 0;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;
+}
+
+.block1 .item1 {
+    background-image: url('ok.png');
+}
+
+.block1 .item2 {
+    background-image: url('no.png');
+}
+
+.button {
+    background-color: blue;
+    width: 80px;
+    height: 35px;
+    color: aliceblue;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: auto; 
+    margin-bottom: 20px;
+}
